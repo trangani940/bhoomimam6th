@@ -68,9 +68,41 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="assignment1Q-1.aspx" />
+    <Content Include="assignment1Q-2.aspx" />
+    <Content Include="assignment1Q-3.aspx" />
+    <Content Include="assignment1Q-4.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="assignment1Q-1.aspx.cs">
+      <DependentUpon>assignment1Q-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assignment1Q-1.aspx.designer.cs">
+      <DependentUpon>assignment1Q-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assignment1Q-2.aspx.cs">
+      <DependentUpon>assignment1Q-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assignment1Q-2.aspx.designer.cs">
+      <DependentUpon>assignment1Q-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assignment1Q-3.aspx.cs">
+      <DependentUpon>assignment1Q-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assignment1Q-3.aspx.designer.cs">
+      <DependentUpon>assignment1Q-3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assignment1Q-4.aspx.cs">
+      <DependentUpon>assignment1Q-4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assignment1Q-4.aspx.designer.cs">
+      <DependentUpon>assignment1Q-4.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
